@@ -60,10 +60,10 @@ pub fn index_of_largest(strs: &Vec<String>) -> usize{
         index_of_largest
     }
 
-pub fn return_vector_char(strs : &Vec<String>, indexOfChar: usize)-> Vec<char>{
+pub fn return_vector_char(strs : &Vec<String>, index_of_char: usize)-> Vec<char>{
     let mut result :Vec<char> = vec![];
     for word in strs  {
-        if let Some(c) = word.chars().nth(indexOfChar)   {
+        if let Some(c) = word.chars().nth(index_of_char)   {
             result.push(c);
         }else {
             result.clear();
@@ -73,12 +73,12 @@ pub fn return_vector_char(strs : &Vec<String>, indexOfChar: usize)-> Vec<char>{
     result
 }
 
-pub fn compare_all_chars(charToCompare: &char, vchar:&Vec<char>)-> bool{
+pub fn compare_all_chars(char_to_compare: &char, vchar:&Vec<char>)-> bool{
     if vchar.is_empty() {
         return false;
     }
     for c in vchar  {
-        if charToCompare != c {
+        if char_to_compare != c {
             return false;
         }
     }

@@ -10,7 +10,6 @@ use std::collections::{HashMap, HashSet};
 
 impl Solution {
     pub fn find_lucky(arr: Vec<i32>) -> i32 {
-        let mut counter : Vec<i32> = vec![-1;arr.len()];
         let mut lucky_numbers: HashSet<i32> = HashSet::new() ;
         let mut map: HashMap<i32,i32> = HashMap::new();
         for &actual_value in arr.iter() {

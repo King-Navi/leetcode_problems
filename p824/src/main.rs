@@ -4,8 +4,6 @@ fn main() {
     let s = Solution::to_goat_latin("I speak Goat Latin".to_string());
     println!("{:?}", s);
 }
-use std::collections::btree_set::Range;
-
 impl Solution {
     pub fn to_goat_latin(sentence: String) -> String {
         let mut words: Vec<String> = sentence
@@ -47,7 +45,7 @@ impl Solution {
                     w.push_str("ma");
                 }
             }
-            addLetterA(word_number, w);
+            add_letter_a(word_number, w);
             new_sentences.push_str(w);
             if i != words_len -1 {
                 new_sentences.push_str(" ");
@@ -57,7 +55,7 @@ impl Solution {
     }
 }
 
-pub fn addLetterA(number: usize, word: &mut String) {
+pub fn add_letter_a(number: usize, word: &mut String) {
     for _ in 0..number {
         word.push_str("a");
     }
