@@ -18,7 +18,7 @@ fn main() {
 }
 
 
-use std::{collections::HashMap, iter::Map, result, sync::mpsc};
+use std::{collections::HashMap};
 
 struct FindSumPairs {
     //num1 doesn't change
