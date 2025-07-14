@@ -9,7 +9,7 @@ impl Solution {
         let mut is_next_uppercase : bool = false;
         let mut is_first_uppercase : bool = true;
         result.push('#');
-        for (i , c) in caption.chars().into_iter().enumerate() {
+        for (_ , c) in caption.chars().into_iter().enumerate() {
             if c == ' ' {
                 is_next_uppercase = true;
                 continue;
