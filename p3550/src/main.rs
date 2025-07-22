@@ -3,6 +3,7 @@
 //
 //
 //
+//
 pub struct Solution;
 fn main() {
     Solution::smallest_index(vec![1,3,2]);
