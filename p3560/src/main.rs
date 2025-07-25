@@ -39,7 +39,7 @@ pub fn cost(log_size: i32, k : i32) -> i64{
         if a > k {
             break;
         }
-        let mut b = log_size - a;
+        let b = log_size - a;
         if b <= k {
             let cost : i64 = a as i64 * b as i64;
             if cost  < minor_cost || minor_cost == 0 {
