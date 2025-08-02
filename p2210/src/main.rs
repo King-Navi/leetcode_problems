@@ -6,6 +6,7 @@ fn main() {
 //
 //
 //
+//
 impl Solution {
     pub fn count_hill_valley(nums: Vec<i32>) -> i32 {
         let last_index: usize = nums.iter().count(); 
