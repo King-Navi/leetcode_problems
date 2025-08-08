@@ -12,7 +12,6 @@ impl Solution {
             sum += num * (i as i32 + 1) ;
 
         }
-        println!("{:?}", sum);
         sum 
     }
 }
