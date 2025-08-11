@@ -8,7 +8,6 @@ use std::collections::HashSet;
 impl Solution {
     pub fn max_sum(nums: Vec<i32>) -> i32 {
         let mut hash_set: HashSet<i32> = HashSet::new();
-        let mut  v = vec![];
         let mut sum = 0;
         let mut sum_negative = i32::MIN;
         for n in nums {
@@ -20,7 +19,6 @@ impl Solution {
             }
             if !hash_set.contains(&n) {
                 hash_set.insert(n);
-                v.push(n);
                 sum += n;
             }
         }
