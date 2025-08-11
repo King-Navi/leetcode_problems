@@ -3,8 +3,8 @@ use std::collections::HashSet;
 struct  Solution;
 fn main() {
     Solution::total_numbers(vec![1,3,5]
-
-);
+);;
+    let o = 0_i32;
 }
 impl Solution {
     pub fn total_numbers(digits: Vec<i32>) -> i32 {
