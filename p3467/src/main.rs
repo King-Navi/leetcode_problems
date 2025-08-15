@@ -1,6 +1,7 @@
 struct  Solution;
 fn main() {
     println!("Hello, world!");
+    Solution::transform_array(vec![1,2,3]);
 }
 impl Solution {
     pub fn transform_array(nums: Vec<i32>) -> Vec<i32> {

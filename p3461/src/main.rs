@@ -19,7 +19,7 @@ impl Solution {
     }
 }
 
-pub fn min_s(mut s: String) -> String {
+pub fn min_s(s: String) -> String {
     if s.chars().count() == 2 {
         return s;
     }
