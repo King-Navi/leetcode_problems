@@ -1,4 +1,5 @@
 struct Solution;
+
 fn main() {
     let  s = Solution::sum_of_good_numbers(vec![1,3,2,1,5,4], 2);
     println!("{s}");
