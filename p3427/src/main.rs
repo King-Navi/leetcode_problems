@@ -6,7 +6,7 @@ fn main() {
 impl Solution {
     pub fn subarray_sum(nums: Vec<i32>) -> i32 {
         let mut result = 0;
-        for (i , n) in nums.iter().enumerate() {
+        for (i , _) in nums.iter().enumerate() {
             let mut start = i  as i32 - nums[i];
             if start < 0 {
                 start = 0;
