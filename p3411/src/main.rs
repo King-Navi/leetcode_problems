@@ -1,5 +1,4 @@
 struct Solution;
-
 fn main() {
     println!("gcd([2,2])   = {}", gcd(&[2,2]));
     println!("lcm([2,2])   = {}", lcm(&[2,2]));
