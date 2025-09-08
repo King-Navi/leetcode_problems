@@ -11,6 +11,7 @@ fn main() {
 
 impl Solution {
     pub fn minimum_operations(nums: Vec<i32>) -> i32 {
+        use std::collections::HashMap;
         let mut operations = 0;
         let mut are_uniqued = false;
         let mut index = 0;
