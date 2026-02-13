@@ -16,6 +16,7 @@ impl Solution {
             return 1;
         }
     }
+    
 }
 
 pub fn steps_requiered(n : & i32 , z : & i32) -> i32{
