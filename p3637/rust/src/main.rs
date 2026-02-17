@@ -23,6 +23,7 @@ impl Solution {
                 last_index = i;
                 break;
             }
+            
             return false;
         }
         false
