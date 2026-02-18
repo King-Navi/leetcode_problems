@@ -22,6 +22,7 @@ impl Solution {
             }else {
                 last_index = i;
                 break;
+                
             }
             
             return false;
