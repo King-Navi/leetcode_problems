@@ -13,6 +13,7 @@ impl Solution {
         1
     }
 }
+
 fn main() {
     println!("{}", Solution::min_operations(vec![1,2,5,5]));
 }
