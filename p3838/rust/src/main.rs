@@ -18,6 +18,7 @@ impl Solution {
         string
     }
 }
+
 fn main() {
     let a = 'a' as i32;
     let z = 'z' as i32;
