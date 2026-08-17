@@ -3,10 +3,7 @@ struct Solution;
 
 impl Solution {
     pub fn number_of_alternating_groups(colors: Vec<i32>) -> i32 {
-        let len =colors.len(); 
-        if  len<= 3  {
-            return 0;
-        }
+        let len =colors.len();
         let mut left_idx = 0;
         let mut middle_idx = 1;
         let mut rigth_idx = 2;
